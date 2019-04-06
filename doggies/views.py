@@ -10,3 +10,7 @@ def search(request):
 
 def filter(request):
     return render(request, 'doggies/filter.html')
+
+def do_search(request):
+    print(request.POST.get('term'))
+    return render(request, 'doggies/search.html')
