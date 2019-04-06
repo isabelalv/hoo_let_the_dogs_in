@@ -28,7 +28,7 @@
 			</section> -->
 
 		<!-- Banner -->
-			<section id="banner">
+			<!-- <section id="banner">
 				<header>
 					<h2>Filter</h2>
 				</header>
@@ -37,7 +37,7 @@
 					<a href="#first" class="button style2 scrolly">Search</a>&nbsp&nbsp&nbsp&nbsp
 					<a href="#first" class="button style2 scrolly">Filter</a>
 				</footer>
-			</section>
+			</section> -->
 
 		<!-- Feature 1 -->
 			<!-- <article id="first" class="container box style1 right">
@@ -109,9 +109,8 @@
 			</article> -->
 
 		<!-- Generic -->
-		<!--
 			<article class="container box style3">
-				<header>
+				<!-- <header>
 					<h2>Generic Box</h2>
 					<p>Just a generic box. Nothing to see here.</p>
 				</header>
@@ -169,57 +168,264 @@
 						<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
 						<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
 					</ol>
-				</section>
+				</section> -->
 				<section>
 					<header>
-						<h3>Table</h3>
+						<h3>Select the traits that are important to you</h3>
 					</header>
 					<div class="table-wrapper">
 						<table>
 							<thead>
 								<tr>
-									<th>ID</th>
-									<th>Name</th>
-									<th>Description</th>
-									<th>Price</th>
+									<th>Trait</th>
+									<th>Minimum</th>
+									<th>Maximum</th>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
-									<td>45815</td>
-									<td>Something</td>
-									<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
-									<td>29.99</td>
+									<td>Size</td>
+									<td><select name="size-min" id="size-min">
+										<option value="">Any</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+									</select></td>
+									<td><select name="size-max" id="size-max">
+										<option value="">Any</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+									</select></td>
 								</tr>
 								<tr>
-									<td>24524</td>
-									<td>Nothing</td>
-									<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
-									<td>19.99</td>
+									<td>Kid Friendly</td>
+									<td><select name="kid-min" id="kid-min">
+										<option value="">Any</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+									</select></td>
+									<td><select name="kid-max" id="kid-max">
+										<option value="">Any</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+									</select></td>
 								</tr>
 								<tr>
-									<td>45815</td>
-									<td>Something</td>
-									<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
-									<td>29.99</td>
+									<td>Dog Friendly</td>
+									<td><select name="dog-min" id="dog-min">
+										<option value="">Any</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+									</select></td>
+									<td><select name="dog-max" id="dog-max">
+										<option value="">Any</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+									</select></td>
 								</tr>
 								<tr>
-									<td>24524</td>
-									<td>Nothing</td>
-									<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
-									<td>19.99</td>
+									<td>Low Shedding</td>
+									<td><select name="shed-min" id="shed-min">
+										<option value="">Any</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+									</select></td>
+									<td><select name="shed-max" id="shed-max">
+										<option value="">Any</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+									</select></td>
 								</tr>
+								<tr>
+									<td>Easy to Groom</td>
+									<td><select name="groom-min" id="groom-min">
+										<option value="">Any</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+									</select></td>
+									<td><select name="groom-max" id="groom-max">
+										<option value="">Any</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+									</select></td>
+								</tr>
+								<tr>
+									<td>High Energy</td>
+									<td><select name="energy-min" id="energy-min">
+										<option value="">Any</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+									</select></td>
+									<td><select name="energy-max" id="energy-max">
+										<option value="">Any</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+									</select></td>
+								</tr>
+								<tr>
+									<td>Good Health</td>
+									<td><select name="health-min" id="health-min">
+										<option value="">Any</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+									</select></td>
+									<td><select name="health-max" id="health-max">
+										<option value="">Any</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+									</select></td>
+								</tr>
+								<tr>
+									<td>Low Barking</td>
+									<td><select name="bark-min" id="bark-min">
+										<option value="">Any</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+									</select></td>
+									<td><select name="bark-max" id="bark-max">
+										<option value="">Any</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+									</select></td>
+								</tr>
+								<tr>
+									<td>Intelligence</td>
+									<td><select name="intelligence-min" id="intelligence-min">
+										<option value="">Any</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+									</select></td>
+									<td><select name="intelligence-max" id="intelligence-max">
+										<option value="">Any</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+									</select></td>
+								</tr>
+								<tr>
+									<td>Easy to Train</td>
+									<td><select name="train-min" id="train-min">
+										<option value="">Any</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+									</select></td>
+									<td><select name="train-max" id="train-max">
+										<option value="">Any</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+									</select></td>
+								</tr>
+								<tr>
+									<td>Tolerates Hot</td>
+									<td><select name="hot-min" id="hot-min">
+										<option value="">Any</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+									</select></td>
+									<td><select name="hot-max" id="hot-max">
+										<option value="">Any</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+									</select></td>
+								</tr>
+								<tr>
+									<td>Tolerates Cold</td>
+									<td><select name="cold-min" id="cold-min">
+										<option value="">Any</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+									</select></td>
+									<td><select name="cold-max" id="cold-max">
+										<option value="">Any</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+									</select></td>
+								</tr>
+
 							</tbody>
-							<tfoot>
-								<tr>
-									<td colspan="3"></td>
-									<td>100.00</td>
-								</tr>
-							</tfoot>
 						</table>
+					</div>&nbsp&nbsp&nbsp
+					<div class="col-12" >
+						<ul class="actions" style="text-align:center; float:center;">
+							<li ><input  type="submit" value="Search" /></li>
+							<!-- <li><input type="reset" class="style3" value="Clear Search" /></li> -->
+						</ul>
 					</div>
 				</section>
-				<section>
+				<!-- <footer>
+					<a href="#" class="button style2 scrolly">Search</a>
+				</footer> -->
+				<!-- <section>
 					<header>
 						<h3>Form</h3>
 					</header>

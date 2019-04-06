@@ -1809,7 +1809,8 @@ input, select, textarea {
 
 	.box {
 		position: relative;
-		margin-top: 9em;
+		/* margin-top: 9em; */
+		margin-top: 2em;
 		margin-bottom: 0;
 	}
 
@@ -1817,7 +1818,8 @@ input, select, textarea {
 			content: '';
 			display: block;
 			position: absolute;
-			top: -9em;
+			/* top: -9em; */
+			top: -2em;
 			left: 50%;
 			height: 9em;
 			border-left: solid 1px #fff;
@@ -1828,6 +1830,7 @@ input, select, textarea {
 			display: block;
 			width: 90px;
 			height: 66px;
+			/* height: 0; */
 			position: absolute;
 			left: 50%;
 			top: -4.5em;
