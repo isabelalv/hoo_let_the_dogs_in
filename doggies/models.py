@@ -6,7 +6,7 @@ class Breed(models.Model):
     size = models.IntegerField(default=0)
     kid_friendly = models.IntegerField(default=0)
     dog_friendly = models.IntegerField(default=0)
-    low_sheddint = models.IntegerField(default=0)
+    low_shedding = models.IntegerField(default=0)
     easy_to_groom = models.IntegerField(default=0)
     high_energy = models.IntegerField(default=0)
     good_health = models.IntegerField(default=0)
